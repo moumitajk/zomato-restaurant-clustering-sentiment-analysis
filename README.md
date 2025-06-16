@@ -1,5 +1,44 @@
-# zomato-restaurant-clustering-sentiment-analysis
-Zomato is an Indian restaurant aggregator and food delivery start-up founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews of restaurants, and also has food delivery options from partner restaurants in select cities. India is quite famous for its diverse multi cuisine available in a large number of restaurants and hotel resorts, which is reminiscent of unity in diversity. Restaurant business in India is always evolving. More Indians are warming up to the idea of eating restaurant food whether by dining outside or getting food delivered. The growing number of restaurants in every state of India has been a motivation to inspect the data to get some insights, interesting facts and figures about the Indian food industry in each city. So, this project focuses on analysing the Zomato restaurant data for each city in India.
+# Zomato Restaurant Clustering & Sentiment Analysis
 
-The Project focuses on Customers and Company, you have to analyze the sentiments of the reviews given by the customer in the data and make some useful conclusions in the form of Visualizations. Also, cluster the zomato restaurants into different segments. The data is vizualized as it becomes easy to analyse data at instant. The Analysis also solves some of the business cases that can directly help the customers finding the Best restaurant in their locality and for the company to grow up and work on the fields they are currently lagging in. This could help in clustering the restaurants into segments. Also the data has valuable information around cuisine and costing which can be used in cost vs. benefit analysis Data could be used for sentiment analysis. Also the metadata of reviewers can be used for identifying the critics in the industry.
+This project analyzes Zomato restaurant data to uncover customer sentiment trends and group similar restaurants using machine learning techniques. The goal is to help both end users and Zomato make data-driven decisions.
+
+## Project Objectives
+- Perform **sentiment analysis** on customer reviews to evaluate user satisfaction.
+- Apply **clustering algorithms (KMeans)** to group restaurants based on cost, ratings, and cuisine.
+- Derive **business insights** to enhance user experience and strategic planning.
+
+## Technologies Used
+- **Python**, **Pandas**, **NumPy** for data handling
+- **Matplotlib**, **Seaborn** for visualization
+- **TextBlob**, **NLTK** for NLP and sentiment classification
+- **Scikit-learn** for clustering (KMeans, Elbow Method)
+
+## Key Features
+- Text cleaning, stopword removal, tokenization, and sentiment scoring
+- Clustering using restaurant attributes such as price, rating, and cuisine
+- Visual analytics to reveal cuisine trends, cost distribution, and sentiment patterns
+
+## Visual Insights
+
+### Restaurant Cost Distribution
+![image](https://github.com/user-attachments/assets/aba9aaea-d819-44ac-991d-0490ca9bf01a)
+
+
+### Rating Distribution
+![image](https://github.com/user-attachments/assets/57c1b942-2084-4902-85c2-2e652d2f7ae6)
+
+
+### Top 10 Cuisines
+![image](https://github.com/user-attachments/assets/324e8a7f-2628-4b93-b190-775b65f79581)
+
+
+### Restaurant Costs vs cuisines
+![image](https://github.com/user-attachments/assets/b0ba79ed-bf73-4a7b-a38b-5e0618767215)
+
+
+
+## Insights
+- Positive reviews align closely with higher-rated, reasonably priced restaurants.
+- Clustering identified underserved segments like mid-cost multi-cuisine outlets.
+- Review text helped pinpoint common user concerns such as UI/UX and service delays.
 
